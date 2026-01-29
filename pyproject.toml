@@ -1,0 +1,17 @@
+[project]
+name = "yt-mlops-ci-masterclass"
+version = "0.1.0"
+description = "Modernized MLOps CI Masterclass project"
+dependencies = [
+    "streamlit>=1.30.0",
+    "pytest>=8.0.0",
+]
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I"]
+ignore = []
+
+[tool.pytest.ini_options]
+testpaths = ["."]
+python_files = ["*_test.py", "test_*.py"]
