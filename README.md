@@ -18,7 +18,7 @@ YT-MLOPS-CI-Masterclass/
 │   └── ci.yaml          # GitHub Actions CI pipeline
 ├── app.py               # Streamlit UI
 ├── utils.py             # Calculation logic
-├── _test.py             # Pytest suite
+├── test_app.py          # Pytest suite
 ├── requirements.txt     # Python dependencies
 ├── pyproject.toml       # Modern project configuration
 ├── Dockerfile           # Container configuration
