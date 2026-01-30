@@ -1,5 +1,5 @@
 import pytest
-from utils import square, cube, fifth_power
+from utils import cube, fifth_power, square
 
 # Test suite for math utility functions
 

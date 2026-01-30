@@ -1,5 +1,5 @@
 import streamlit as st
-from utils import square, cube, fifth_power
+from utils import cube, fifth_power, square
 
 # Set page configuration
 st.set_page_config(page_title="Power Calculator", page_icon="🔢")
@@ -7,7 +7,7 @@ st.set_page_config(page_title="Power Calculator", page_icon="🔢")
 # Streamlit UI Header
 st.title("🔢 Power Calculator")
 st.markdown("""
-Welcome to the Power Calculator! 
+Welcome to the Power Calculator!
 Enter a number below to see its **square**, **cube**, and **fifth power**.
 ---
 """)
