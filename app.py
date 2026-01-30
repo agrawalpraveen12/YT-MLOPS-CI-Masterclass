@@ -1,4 +1,5 @@
 import streamlit as st
+
 from utils import cube, fifth_power, square
 
 # Set page configuration
